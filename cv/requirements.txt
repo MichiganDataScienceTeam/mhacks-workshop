@@ -7,4 +7,5 @@ torchvision==0.15.2
 numpy==1.24.2
 Pillow==9.5.0
 matplotlib==3.7.2
-supervision==0.2.0  # Supervision package for tracking and annotation
+supervision==0.2.0
+pandas==2.1.1
