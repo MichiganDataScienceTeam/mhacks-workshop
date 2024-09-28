@@ -15,6 +15,10 @@ pipeline.join()
 # Or follow the bottom which would be more ideal (less knowledge fo pipeline)
 
 
+# Pickle allows you to save the frames and detections of your program so you don't have
+# to rerun stuff. This speeds up debugging and testing when you are performing inference with 
+# Roboflow. This can also transfer to the raw YOLOv8 package.
+
 import pickle
 import os
 import numpy as np
